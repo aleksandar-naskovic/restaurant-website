@@ -38,7 +38,7 @@ export default function Menu() {
       }
       
         <div className="menu-home-btn">
-        <Link to="/" className="btn-primary">&#60; Home Page</Link> 
+        <Link to="/restaurant-website" className="btn-primary">&#60; Home Page</Link> 
       </div>
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch} placeholder={query}/>

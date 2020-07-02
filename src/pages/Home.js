@@ -16,7 +16,7 @@ export default function Home() {
   return(
     <div>
         <Banner title="Restaurant web site"  subtitle="Restaurant app project by Aleksandar Naskovic">
-          <Link to="/menu" className="btn-primary">Our Menu</Link>           
+          <Link to="/restaurant-website/menu" className="btn-primary">Our Menu</Link>           
         </Banner> 
         <Services/>
         <h2 className="title">Featured Dish</h2>
